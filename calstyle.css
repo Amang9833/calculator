@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(to right , rgb(85, 100, 231), rgb(63, 219, 110));
+}
+
+
+.main-bdy{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 12px solid rgba(238, 6, 6, 0.616);
+    background-color: rgb(255, 194, 194);
+    border-radius: 24px;
+    height: fit-content;
+    width: fit-content;
+}
+.main-bdy h3{
+    padding: 24px 34px;
+    font-size: 2em;
+}
+
+.cal{
+    /* border: 2px solid red; */
+    
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.btn{
+    padding: 5px;
+    font-weight: 300;
+    width: calc(420px/4);
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: large;
+    cursor: pointer;
+    color: rgba(52, 32, 230, 0.7);
+    background-color: rgba(205, 198, 231, 0.7);
+
+}
+
+
+::selection{
+    background-color: gray;
+}
+
+.btn:hover{
+    background-color: rgba(219, 236, 236, 0.9);
+    color: red;
+    font-weight: bolder;
+    
+    
+}
+
+table{
+    padding: 5px 3px;
+    margin: auto;
+    font-size: 23px;
+    width: fit-content;
+    height: fit-content;
+    
+}
+input{
+    padding: 5px 12px;
+    margin: 0px 6px;
+    text-align: end;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 34px;
+    cursor: default;
+    background-color: rgb(205, 198, 231);
+
+    
+}
+#clear{
+    font-weight:600;
+    color: red;
+    
+}
+#mod{
+    font-weight:600;
+    /* background-color: black; */
+
+}
+#del{
+    font-weight:600;
+    background-color: black;
+
+}
+#div{
+    font-weight:600;
+    
+}
+#minus{
+    font-weight:600;
+    background-color: black;
+
+}
+#copy{
+    font-weight:600;
+    background-color: black;
+
+}
+#pluse{
+    font-weight:600;
+    background-color: black;
+
+}
+#decimal{
+    font-weight:600;
+}
+#equal{
+    font-weight:600;
+    background-color: black;
+
+}
+#multiply{
+    font-weight:600;
+    background-color: black;
+
+}
+#open-b{
+    font-weight:600;
+    /* background-color: black; */
+
+}
+#close-b{
+    font-weight:600;
+    /* background-color: black; */
+
+}
+#back img{
+    height: 20px;
+    filter: invert();    
+}
+#copy{
+    background-color: black;
+    color: black;
+    font-size: 2px;
+}
+
+#copy img{
+    height: 18px;
+    filter: invert();
+}
+
+#smile{
+    background-color: black;
+    
+    
+}
+#smile img{
+    height: 20px;
+}

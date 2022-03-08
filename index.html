@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calstyle.css" />
+  </head>
+  
+  
+  <body>
+    <!-- crete backspace -->
+    
+    <div class="main-bdy">
+      <h3>Claculator</h3>
+      <div class="cal">
+        <input
+        type="text"
+        name=""
+        pattern="[0-9]*"
+        id="screen"
+        placeholder="0"
+        />
+        <table>
+          <tr>
+            <td>
+              <button class="btn" id="clear">C</button>
+              <button class="btn">^</button>
+              <button class="btn" id="mod">%</button>
+              <button class="btn" id="copy" onclick="myFunction()" >
+                  <img src="./icons/2nd-back.png" alt="" /> 
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn" id="sevev">7</button>
+              <button class="btn" id="eight">8</button>
+              <button class="btn" id="nine">9</button>
+              <button class="btn" id="multiply">x</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn" id="four">4</button>
+              <button class="btn" id="five">5</button>
+              <button class="btn" id="six">6</button>
+              <button class="btn" id="minus">-</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn" id="one">1</button>
+              <button class="btn" id="two">2</button>
+              <button class="btn" id="three">3</button>
+              <button class="btn" id="pluse">+</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn" id="decimal">.</button>
+              <button class="btn" id="zero">0</button>
+              <button class="btn" id="div">/</button>
+              <button class="btn" id="equal">=</button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="btn" id="open-b">(</button>
+              <button class="btn">00</button>
+              <button class="btn" id="close-b">)</button>
+              <button class="btn" id="smile" >
+                <img src="./icons/smile.png" alt="" class="simle" />..
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
